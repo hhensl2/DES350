@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>arches gif</title>
+	
+	
+<style>
+	
+	body {
+		background-color: white; 
+		margin: 0px;
+		padding: 0px;
+	}	
+	
+	.card {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		width: 40%;
+		height: 90vh;
+		transform: translate(-50%,-50%);
+		background: url("arches_poster_final.jpg") no-repeat center;
+		background-size: contain;
+	}
+	
+	.card:hover {
+		background: url("arches_poster_final.gif") no-repeat center;
+		background-size: contain;
+	}
+	
+	#preload {
+		background: url("arches_poster_final.gif") no-repeat -9999px -9999px;
+	}
+	
+	
+</style>
+	
+	
+</head>
+
+<body>
+	
+<div id="preload"></div>
+<div class="card"></div>
+	
+</body>
+</html>
